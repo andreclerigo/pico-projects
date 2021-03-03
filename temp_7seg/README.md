@@ -1,5 +1,5 @@
 # Wiring
-![alt text](https://i.imgur.com/h5NAQV0.png)
+![alt text](https://i.imgur.com/vrZm2ah.png)
 
 # Notes
 Using a 7 segment display 5641AS<br>
