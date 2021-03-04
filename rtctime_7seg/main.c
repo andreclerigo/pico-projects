@@ -181,10 +181,10 @@ void core1_code()
 
     // Define the date which you start counting
     datetime_t t = {
-            .year  = 2020,
+            .year  = 2021,
             .month = 03,
-            .day   = 03,
-            .dotw  = 3, // 0 is Sunday, so 5 is Friday
+            .day   = 04,
+            .dotw  = 4, // 0 is Sunday, so 5 is Friday
             .hour  = 23,
             .min   = 35,
             .sec   = 00
@@ -205,8 +205,18 @@ void core1_code()
         token = strtok(NULL, " ");
         token = strtok(NULL, " ");
         token = strtok(NULL, " ");
-        
-        strncpy(str, token, 5);
+
+        // If the date is AM then add a 0 in the beginning
+        if (*(token+1) == ':')
+        {
+            str[0] = '0';
+            str[1] = *(token);
+            str[2] = *(token + 1);
+            str[3] = *(token + 2);
+            str[4] = *(token + 3);
+        }else{
+            strncpy(str, token, 5);
+        }
         sleep_ms(200);  // Wait 200ms
     }
 }
