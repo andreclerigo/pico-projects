@@ -1,2 +1,4 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+rtctime_7seg/build/* linguist-documentation
+temp_7seg/build/* linguist-documentation
