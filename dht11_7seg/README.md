@@ -33,7 +33,7 @@ I this case I show the most complicated thing that is using resistances in serie
 My module has an onboard 5.1k resistance so to get 4.7k I'll have to get a 55k Ohm resistance in parallel which is done by putting 5x 10k Ohm resistances in series with a 5.5k Ohm resistance  
 ```
 4.7k = 1/5.1k + 1/R (=) R = 55k Ohm
-55k = 4 x 10k + 5.5k
+55k = 4*10k + 5.5k
 ```
 
 # Wiring with onboard resistance
