@@ -4,3 +4,5 @@ rtctime_7seg/build/* linguist-documentation
 temp_7seg/build/* linguist-documentation
 rtctime_7seg/build/pico-sdk/* linguist-documentation
 temp_7seg/build/pico-sdk/* linguist-documentation
+dht/build/pico-sdk/* linguist-documentation
+dht/build/* linguist-documentation
