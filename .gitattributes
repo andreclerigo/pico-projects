@@ -1,11 +1,9 @@
 # Auto detect text files and perform LF normalization
 * text=auto
-rtctime_7seg/build/* linguist-vendored
-temp_7seg/build/* linguist-vendored
-dht/build/* linguist-vendored
+rtctime_7seg/build/** linguist-documentation
+temp_7seg/build/** linguist-documentation
+dht/build/** linguist-documentation
 rtctime_7seg/build/pico-sdk/* linguist-documentation
 temp_7seg/build/pico-sdk/* linguist-documentation
 dht/build/pico-sdk/* linguist-documentation
-rtctime_7seg/build/CMakeFiles/* linguist-documentation
-temp_7seg/build/CMakeFiles/* linguist-documentation
-dht/build/CMakeFiles/* linguist-documentation
+
