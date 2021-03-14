@@ -6,3 +6,6 @@ dht/build/* linguist-documentation
 rtctime_7seg/build/pico-sdk/* linguist-documentation
 temp_7seg/build/pico-sdk/* linguist-documentation
 dht/build/pico-sdk/* linguist-documentation
+rtctime_7seg/build/CMakeFiles/* linguist-documentation
+temp_7seg/build/CMakeFiles/* linguist-documentation
+dht/build/CMakeFiles/* linguist-documentation
