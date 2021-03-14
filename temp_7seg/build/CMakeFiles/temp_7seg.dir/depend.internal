@@ -1749,7 +1749,7 @@ CMakeFiles/temp_7seg.dir/D_/Downloads/pico-sdk/src/rp2_common/pico_stdlib/stdlib
  generated/pico_base/pico/config_autogen.h
  generated/pico_base/pico/version.h
 CMakeFiles/temp_7seg.dir/main.c.obj
- C:/Users/AndreClerigo/Desktop/Maker/Pico/Projects/temp_7seg/main.c
+ C:/Users/AndreClerigo/Desktop/Git/pico-projects/temp_7seg/main.c
  D:/Downloads/pico-sdk/src/boards/include/boards/pico.h
  D:/Downloads/pico-sdk/src/common/pico_base/include/pico.h
  D:/Downloads/pico-sdk/src/common/pico_base/include/pico/assert.h
@@ -1764,18 +1764,24 @@ CMakeFiles/temp_7seg.dir/main.c.obj
  D:/Downloads/pico-sdk/src/common/pico_sync/include/pico/sync.h
  D:/Downloads/pico-sdk/src/common/pico_time/include/pico/time.h
  D:/Downloads/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
+ D:/Downloads/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/adc.h
  D:/Downloads/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
+ D:/Downloads/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h
+ D:/Downloads/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h
  D:/Downloads/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h
  D:/Downloads/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
  D:/Downloads/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h
  D:/Downloads/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h
+ D:/Downloads/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/adc.h
  D:/Downloads/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/interp.h
  D:/Downloads/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/padsbank0.h
  D:/Downloads/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/sio.h
  D:/Downloads/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h
  D:/Downloads/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/uart.h
+ D:/Downloads/pico-sdk/src/rp2_common/hardware_adc/include/hardware/adc.h
  D:/Downloads/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h
  D:/Downloads/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h
+ D:/Downloads/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h
  D:/Downloads/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h
  D:/Downloads/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h
  D:/Downloads/pico-sdk/src/rp2_common/hardware_uart/include/hardware/uart.h

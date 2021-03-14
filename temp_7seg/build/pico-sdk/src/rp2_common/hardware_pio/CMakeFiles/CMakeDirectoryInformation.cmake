@@ -3,7 +3,7 @@
 
 # Relative path conversion top directories.
 set(CMAKE_RELATIVE_PATH_TOP_SOURCE "D:/Downloads/pico-sdk")
-set(CMAKE_RELATIVE_PATH_TOP_BINARY "C:/Users/AndreClerigo/Desktop/Maker/Pico/Projects/temp_7seg/build")
+set(CMAKE_RELATIVE_PATH_TOP_BINARY "C:/Users/AndreClerigo/Desktop/Git/pico-projects/temp_7seg/build")
 
 
 # The C and CXX include file regular expressions for this directory.

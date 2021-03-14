@@ -6,17 +6,19 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/AndreClerigo/Desktop/Maker/Pico/Projects/temp_7seg/main.c
+C:/Users/AndreClerigo/Desktop/Git/pico-projects/temp_7seg/main.c
 stdio.h
 -
-math.h
--
 pico/stdlib.h
-C:/Users/AndreClerigo/Desktop/Maker/Pico/Projects/temp_7seg/pico/stdlib.h
+C:/Users/AndreClerigo/Desktop/Git/pico-projects/temp_7seg/pico/stdlib.h
 hardware/gpio.h
-C:/Users/AndreClerigo/Desktop/Maker/Pico/Projects/temp_7seg/hardware/gpio.h
+C:/Users/AndreClerigo/Desktop/Git/pico-projects/temp_7seg/hardware/gpio.h
+hardware/adc.h
+C:/Users/AndreClerigo/Desktop/Git/pico-projects/temp_7seg/hardware/adc.h
 pico/multicore.h
-C:/Users/AndreClerigo/Desktop/Maker/Pico/Projects/temp_7seg/pico/multicore.h
+C:/Users/AndreClerigo/Desktop/Git/pico-projects/temp_7seg/pico/multicore.h
+hardware/irq.h
+C:/Users/AndreClerigo/Desktop/Git/pico-projects/temp_7seg/hardware/irq.h
 
 D:/Downloads/pico-sdk/lib/tinyusb/src/class/audio/audio.h
 common/tusb_common.h

@@ -54,7 +54,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = D:\Downloads\pico-sdk\tools\elf2uf2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\AndreClerigo\Desktop\Maker\Pico\Projects\temp_7seg\build\elf2uf2
+CMAKE_BINARY_DIR = C:\Users\AndreClerigo\Desktop\Git\pico-projects\temp_7seg\build\elf2uf2
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -83,9 +83,9 @@ rebuild_cache\fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\AndreClerigo\Desktop\Maker\Pico\Projects\temp_7seg\build\elf2uf2\CMakeFiles C:\Users\AndreClerigo\Desktop\Maker\Pico\Projects\temp_7seg\build\elf2uf2\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\AndreClerigo\Desktop\Git\pico-projects\temp_7seg\build\elf2uf2\CMakeFiles C:\Users\AndreClerigo\Desktop\Git\pico-projects\temp_7seg\build\elf2uf2\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\AndreClerigo\Desktop\Maker\Pico\Projects\temp_7seg\build\elf2uf2\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\AndreClerigo\Desktop\Git\pico-projects\temp_7seg\build\elf2uf2\CMakeFiles 0
 .PHONY : all
 
 # The main clean target

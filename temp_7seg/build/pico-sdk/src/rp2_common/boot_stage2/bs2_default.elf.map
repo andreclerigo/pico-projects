@@ -75,5 +75,5 @@ LOAD linker stubs
  .debug_aranges
                 0x00000000       0x20 CMakeFiles\bs2_default.dir\boot2_w25q080.S.obj
 
-.debug_str      0x00000000       0xb5
- .debug_str     0x00000000       0xb5 CMakeFiles\bs2_default.dir\boot2_w25q080.S.obj
+.debug_str      0x00000000       0xb3
+ .debug_str     0x00000000       0xb3 CMakeFiles\bs2_default.dir\boot2_w25q080.S.obj

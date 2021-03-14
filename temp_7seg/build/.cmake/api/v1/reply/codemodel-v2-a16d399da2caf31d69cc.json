@@ -895,7 +895,7 @@
 				{
 					"directoryIndex" : 41,
 					"id" : "bs2_default::@bc554eaed616d198a22d",
-					"jsonFile" : "target-bs2_default-Debug-d8d90842cec86e10de3f.json",
+					"jsonFile" : "target-bs2_default-Debug-a75022ce4e55ab70b8d9.json",
 					"name" : "bs2_default",
 					"projectIndex" : 1
 				},
@@ -916,7 +916,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "temp_7seg::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-temp_7seg-Debug-db98e5e9c4dffda73618.json",
+					"jsonFile" : "target-temp_7seg-Debug-9c8b25d90cc3933544d1.json",
 					"name" : "temp_7seg",
 					"projectIndex" : 0
 				}
@@ -926,8 +926,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/AndreClerigo/Desktop/Maker/Pico/Projects/temp_7seg/build",
-		"source" : "C:/Users/AndreClerigo/Desktop/Maker/Pico/Projects/temp_7seg"
+		"build" : "C:/Users/AndreClerigo/Desktop/Git/pico-projects/temp_7seg/build",
+		"source" : "C:/Users/AndreClerigo/Desktop/Git/pico-projects/temp_7seg"
 	},
 	"version" : 
 	{
