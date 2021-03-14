@@ -50,24 +50,24 @@ The CXX compiler identification is MSVC, found in "C:/Users/AndreClerigo/Desktop
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: C:/Users/AndreClerigo/Desktop/Maker/Pico/Projects/dht/build/elf2uf2/CMakeFiles/CMakeTmp
 
-Run Build Command(s):nmake /nologo cmTC_da323\fast && 	"D:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.28.29333\bin\HostX86\x86\nmake.exe"  -f CMakeFiles\cmTC_da323.dir\build.make /nologo -L                  CMakeFiles\cmTC_da323.dir\build
-Building C object CMakeFiles/cmTC_da323.dir/CMakeCCompilerABI.c.obj
-	"D:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.28.29333\bin\Hostx86\x86\cl.exe" @C:\Users\ANDREC~1\AppData\Local\Temp\nmAE37.tmp
+Run Build Command(s):nmake /nologo cmTC_2fc6b\fast && 	"D:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.28.29333\bin\HostX86\x86\nmake.exe"  -f CMakeFiles\cmTC_2fc6b.dir\build.make /nologo -L                  CMakeFiles\cmTC_2fc6b.dir\build
+Building C object CMakeFiles/cmTC_2fc6b.dir/CMakeCCompilerABI.c.obj
+	"D:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.28.29333\bin\Hostx86\x86\cl.exe" @C:\Users\ANDREC~1\AppData\Local\Temp\nmFE14.tmp
 CMakeCCompilerABI.c
-Linking C executable cmTC_da323.exe
-	"C:\Program Files\CMake\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_da323.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\mt.exe --manifests -- "D:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.28.29333\bin\Hostx86\x86\link.exe" /nologo @CMakeFiles\cmTC_da323.dir\objects1.rsp @C:\Users\ANDREC~1\AppData\Local\Temp\nmB05B.tmp
+Linking C executable cmTC_2fc6b.exe
+	"C:\Program Files\CMake\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_2fc6b.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\mt.exe --manifests -- "D:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.28.29333\bin\Hostx86\x86\link.exe" /nologo @CMakeFiles\cmTC_2fc6b.dir\objects1.rsp @C:\Users\ANDREC~1\AppData\Local\Temp\nmFE92.tmp
 
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: C:/Users/AndreClerigo/Desktop/Maker/Pico/Projects/dht/build/elf2uf2/CMakeFiles/CMakeTmp
 
-Run Build Command(s):nmake /nologo cmTC_01ad4\fast && 	"D:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.28.29333\bin\HostX86\x86\nmake.exe"  -f CMakeFiles\cmTC_01ad4.dir\build.make /nologo -L                  CMakeFiles\cmTC_01ad4.dir\build
-Building CXX object CMakeFiles/cmTC_01ad4.dir/CMakeCXXCompilerABI.cpp.obj
-	"D:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.28.29333\bin\Hostx86\x86\cl.exe" @C:\Users\ANDREC~1\AppData\Local\Temp\nmB4A0.tmp
+Run Build Command(s):nmake /nologo cmTC_53296\fast && 	"D:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.28.29333\bin\HostX86\x86\nmake.exe"  -f CMakeFiles\cmTC_53296.dir\build.make /nologo -L                  CMakeFiles\cmTC_53296.dir\build
+Building CXX object CMakeFiles/cmTC_53296.dir/CMakeCXXCompilerABI.cpp.obj
+	"D:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.28.29333\bin\Hostx86\x86\cl.exe" @C:\Users\ANDREC~1\AppData\Local\Temp\nm3F0.tmp
 CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_01ad4.exe
-	"C:\Program Files\CMake\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_01ad4.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\mt.exe --manifests -- "D:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.28.29333\bin\Hostx86\x86\link.exe" /nologo @CMakeFiles\cmTC_01ad4.dir\objects1.rsp @C:\Users\ANDREC~1\AppData\Local\Temp\nmB51E.tmp
+Linking CXX executable cmTC_53296.exe
+	"C:\Program Files\CMake\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_53296.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\mt.exe --manifests -- "D:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.28.29333\bin\Hostx86\x86\link.exe" /nologo @CMakeFiles\cmTC_53296.dir\objects1.rsp @C:\Users\ANDREC~1\AppData\Local\Temp\nm48E.tmp
 
 
 

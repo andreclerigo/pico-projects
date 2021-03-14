@@ -1153,9 +1153,9 @@ Discarded input sections
  .debug_frame   0x00000000       0xa8 CMakeFiles/dht.dir/D_/Downloads/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
  .ARM.attributes
                 0x00000000       0x2b CMakeFiles/dht.dir/D_/Downloads/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
- .text          0x00000000        0x0 C:\Users\ANDREC~1\AppData\Local\Temp\ccyOk1Gk.o
- .data          0x00000000        0x0 C:\Users\ANDREC~1\AppData\Local\Temp\ccyOk1Gk.o
- .bss           0x00000000        0x0 C:\Users\ANDREC~1\AppData\Local\Temp\ccyOk1Gk.o
+ .text          0x00000000        0x0 C:\Users\ANDREC~1\AppData\Local\Temp\ccCiLJXR.o
+ .data          0x00000000        0x0 C:\Users\ANDREC~1\AppData\Local\Temp\ccCiLJXR.o
+ .bss           0x00000000        0x0 C:\Users\ANDREC~1\AppData\Local\Temp\ccCiLJXR.o
  .data          0x00000000        0x0 c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
  .bss           0x00000000        0x0 c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
  .text          0x00000000        0x0 c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(lib_a-calloc.o)
@@ -1349,7 +1349,7 @@ LOAD c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../
 .boot2          0x10000000      0x100
                 0x10000000                __boot2_start__ = .
  *(.boot2)
- .boot2         0x10000000      0x100 C:\Users\ANDREC~1\AppData\Local\Temp\ccyOk1Gk.o
+ .boot2         0x10000000      0x100 C:\Users\ANDREC~1\AppData\Local\Temp\ccCiLJXR.o
                 0x10000100                __boot2_end__ = .
                 0x00000001                ASSERT (((__boot2_end__ - __boot2_start__) == 0x100), ERROR: Pico second stage bootloader must be 256 bytes in size)
 
@@ -2801,7 +2801,7 @@ LOAD CMakeFiles/dht.dir/D_/Downloads/pico-sdk/lib/tinyusb/src/class/vendor/vendo
 LOAD CMakeFiles/dht.dir/D_/Downloads/pico-sdk/lib/tinyusb/src/tusb.c.obj
 LOAD CMakeFiles/dht.dir/D_/Downloads/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
 LOAD CMakeFiles/dht.dir/D_/Downloads/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
-LOAD C:\Users\ANDREC~1\AppData\Local\Temp\ccyOk1Gk.o
+LOAD C:\Users\ANDREC~1\AppData\Local\Temp\ccCiLJXR.o
 LOAD c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a
 LOAD c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libm.a
 START GROUP
@@ -2912,7 +2912,7 @@ LOAD linker stubs
  .ARM.attributes
                 0x00000705       0x2b CMakeFiles/dht.dir/D_/Downloads/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
  .ARM.attributes
-                0x00000730       0x22 C:\Users\ANDREC~1\AppData\Local\Temp\ccyOk1Gk.o
+                0x00000730       0x22 C:\Users\ANDREC~1\AppData\Local\Temp\ccCiLJXR.o
  .ARM.attributes
                 0x00000752       0x1e c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
  .ARM.attributes
@@ -3044,39 +3044,39 @@ LOAD linker stubs
  .debug_abbrev  0x00005397      0x200 CMakeFiles/dht.dir/D_/Downloads/pico-sdk/lib/tinyusb/src/tusb.c.obj
  .debug_abbrev  0x00005597      0x33a CMakeFiles/dht.dir/D_/Downloads/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
 
-.debug_loc      0x00000000    0x12242
- .debug_loc     0x00000000      0x35a CMakeFiles/dht.dir/dht.c.obj
- .debug_loc     0x0000035a      0xafe CMakeFiles/dht.dir/D_/Downloads/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
- .debug_loc     0x00000e58      0x457 CMakeFiles/dht.dir/D_/Downloads/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
- .debug_loc     0x000012af      0x1d7 CMakeFiles/dht.dir/D_/Downloads/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
- .debug_loc     0x00001486       0xe9 CMakeFiles/dht.dir/D_/Downloads/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
- .debug_loc     0x0000156f     0x2c8f CMakeFiles/dht.dir/D_/Downloads/pico-sdk/src/common/pico_time/time.c.obj
- .debug_loc     0x000041fe      0x7ed CMakeFiles/dht.dir/D_/Downloads/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
- .debug_loc     0x000049eb       0x60 CMakeFiles/dht.dir/D_/Downloads/pico-sdk/src/common/pico_sync/lock_core.c.obj
- .debug_loc     0x00004a4b      0x6a3 CMakeFiles/dht.dir/D_/Downloads/pico-sdk/src/common/pico_sync/mutex.c.obj
- .debug_loc     0x000050ee       0xed CMakeFiles/dht.dir/D_/Downloads/pico-sdk/src/common/pico_sync/critical_section.c.obj
- .debug_loc     0x000051db     0x1439 CMakeFiles/dht.dir/D_/Downloads/pico-sdk/src/common/pico_util/pheap.c.obj
- .debug_loc     0x00006614      0x3b3 CMakeFiles/dht.dir/D_/Downloads/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
- .debug_loc     0x000069c7      0x890 CMakeFiles/dht.dir/D_/Downloads/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
- .debug_loc     0x00007257      0x267 CMakeFiles/dht.dir/D_/Downloads/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
- .debug_loc     0x000074be       0x71 CMakeFiles/dht.dir/D_/Downloads/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
- .debug_loc     0x0000752f      0x228 CMakeFiles/dht.dir/D_/Downloads/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
- .debug_loc     0x00007757     0x1186 CMakeFiles/dht.dir/D_/Downloads/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- .debug_loc     0x000088dd     0x2095 CMakeFiles/dht.dir/D_/Downloads/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .debug_loc     0x0000a972      0x16f CMakeFiles/dht.dir/D_/Downloads/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
- .debug_loc     0x0000aae1       0x59 CMakeFiles/dht.dir/D_/Downloads/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
- .debug_loc     0x0000ab3a       0x73 CMakeFiles/dht.dir/D_/Downloads/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
- .debug_loc     0x0000abad      0xa31 CMakeFiles/dht.dir/D_/Downloads/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- .debug_loc     0x0000b5de      0x361 CMakeFiles/dht.dir/D_/Downloads/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
- .debug_loc     0x0000b93f      0x508 CMakeFiles/dht.dir/D_/Downloads/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
- .debug_loc     0x0000be47      0x133 CMakeFiles/dht.dir/D_/Downloads/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
- .debug_loc     0x0000bf7a      0xd88 CMakeFiles/dht.dir/D_/Downloads/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
- .debug_loc     0x0000cd02      0x583 CMakeFiles/dht.dir/D_/Downloads/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
- .debug_loc     0x0000d285     0x22ec CMakeFiles/dht.dir/D_/Downloads/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
- .debug_loc     0x0000f571      0x5b9 CMakeFiles/dht.dir/D_/Downloads/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
- .debug_loc     0x0000fb2a      0xf74 CMakeFiles/dht.dir/D_/Downloads/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
- .debug_loc     0x00010a9e      0x2c7 CMakeFiles/dht.dir/D_/Downloads/pico-sdk/lib/tinyusb/src/tusb.c.obj
- .debug_loc     0x00010d65     0x14dd CMakeFiles/dht.dir/D_/Downloads/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+.debug_loc      0x00000000    0x1223c
+ .debug_loc     0x00000000      0x354 CMakeFiles/dht.dir/dht.c.obj
+ .debug_loc     0x00000354      0xafe CMakeFiles/dht.dir/D_/Downloads/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+ .debug_loc     0x00000e52      0x457 CMakeFiles/dht.dir/D_/Downloads/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+ .debug_loc     0x000012a9      0x1d7 CMakeFiles/dht.dir/D_/Downloads/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+ .debug_loc     0x00001480       0xe9 CMakeFiles/dht.dir/D_/Downloads/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+ .debug_loc     0x00001569     0x2c8f CMakeFiles/dht.dir/D_/Downloads/pico-sdk/src/common/pico_time/time.c.obj
+ .debug_loc     0x000041f8      0x7ed CMakeFiles/dht.dir/D_/Downloads/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+ .debug_loc     0x000049e5       0x60 CMakeFiles/dht.dir/D_/Downloads/pico-sdk/src/common/pico_sync/lock_core.c.obj
+ .debug_loc     0x00004a45      0x6a3 CMakeFiles/dht.dir/D_/Downloads/pico-sdk/src/common/pico_sync/mutex.c.obj
+ .debug_loc     0x000050e8       0xed CMakeFiles/dht.dir/D_/Downloads/pico-sdk/src/common/pico_sync/critical_section.c.obj
+ .debug_loc     0x000051d5     0x1439 CMakeFiles/dht.dir/D_/Downloads/pico-sdk/src/common/pico_util/pheap.c.obj
+ .debug_loc     0x0000660e      0x3b3 CMakeFiles/dht.dir/D_/Downloads/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+ .debug_loc     0x000069c1      0x890 CMakeFiles/dht.dir/D_/Downloads/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+ .debug_loc     0x00007251      0x267 CMakeFiles/dht.dir/D_/Downloads/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+ .debug_loc     0x000074b8       0x71 CMakeFiles/dht.dir/D_/Downloads/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+ .debug_loc     0x00007529      0x228 CMakeFiles/dht.dir/D_/Downloads/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+ .debug_loc     0x00007751     0x1186 CMakeFiles/dht.dir/D_/Downloads/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ .debug_loc     0x000088d7     0x2095 CMakeFiles/dht.dir/D_/Downloads/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .debug_loc     0x0000a96c      0x16f CMakeFiles/dht.dir/D_/Downloads/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+ .debug_loc     0x0000aadb       0x59 CMakeFiles/dht.dir/D_/Downloads/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+ .debug_loc     0x0000ab34       0x73 CMakeFiles/dht.dir/D_/Downloads/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+ .debug_loc     0x0000aba7      0xa31 CMakeFiles/dht.dir/D_/Downloads/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ .debug_loc     0x0000b5d8      0x361 CMakeFiles/dht.dir/D_/Downloads/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+ .debug_loc     0x0000b939      0x508 CMakeFiles/dht.dir/D_/Downloads/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+ .debug_loc     0x0000be41      0x133 CMakeFiles/dht.dir/D_/Downloads/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+ .debug_loc     0x0000bf74      0xd88 CMakeFiles/dht.dir/D_/Downloads/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+ .debug_loc     0x0000ccfc      0x583 CMakeFiles/dht.dir/D_/Downloads/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+ .debug_loc     0x0000d27f     0x22ec CMakeFiles/dht.dir/D_/Downloads/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+ .debug_loc     0x0000f56b      0x5b9 CMakeFiles/dht.dir/D_/Downloads/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+ .debug_loc     0x0000fb24      0xf74 CMakeFiles/dht.dir/D_/Downloads/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+ .debug_loc     0x00010a98      0x2c7 CMakeFiles/dht.dir/D_/Downloads/pico-sdk/lib/tinyusb/src/tusb.c.obj
+ .debug_loc     0x00010d5f     0x14dd CMakeFiles/dht.dir/D_/Downloads/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
 
 .debug_aranges  0x00000000     0x11a8
  .debug_aranges

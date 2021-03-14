@@ -13,7 +13,7 @@
 #define LED_PIN PICO_DEFAULT_LED_PIN
 #endif
 
-const uint DHT_PIN = 15;
+const uint DHT_PIN = 5;
 const uint MAX_TIMINGS = 85;
 
 typedef struct {
