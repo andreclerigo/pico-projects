@@ -2,9 +2,9 @@
 This repository shows you how to use a DHT11 with a raspberry pi pico.  
 I looked at this issue on [pico-examples from raspberry pi](https://github.com/raspberrypi/pico-examples/issues/11) and changed this line 
 ```
-if (count > 16) data[j / 8] |= 1;` to `if (count > 46) data[j / 8] |= 1;
+if (count > 16) data[j / 8] |= 1; to if (count > 46) data[j / 8] |= 1;
 ```  
-also theese lines 
+also these lines 
 ```
 gpio_set_dir(DHT_PIN, GPIO_OUT);
 gpio_put(DHT_PIN, 0);
