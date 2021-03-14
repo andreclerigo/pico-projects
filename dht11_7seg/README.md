@@ -19,12 +19,12 @@ sleep_ms(18);
 gpio_put(DHT_PIN,1);
 sleep_us(40);
 ```
-Since those correct the initialisation for the DHT11 better explained [here](http://www.ocfreaks.com/basics-interfacing-dht11-dht22-humidity-temperature-sensor-mcu/)  
+Since those correct the initialisation for the DHT11 (better explained [here](http://www.ocfreaks.com/basics-interfacing-dht11-dht22-humidity-temperature-sensor-mcu/))  
   
 What I found out is that this works best when there is a 4.7k Ohm pull resistance so if you have a DHT11 "barebones" this means only the module and no board attached, then you can follow the Wiring for DHT11 barebones  
-If you have a DHT11 module attached to a board odds are you have an onboard resistance and therefore you should either increase or decrease the current resistance by putting another resistance in prallel  
+If you have a DHT11 module attached to a board odds are you have an onboard resistance and therefore you should either increase or decrease the current resistance by putting another resistance in parallel  
   
-You should know that:  
+You should know that:
 - Having resistances in series adds up the result of the equivelant resistance `Req = R1 + R2 + ...`  
 - Having resistances in parallel the way you calculate the equivelant resistance is `Req = 1/R1 + 1/R2 + ...` 
 
