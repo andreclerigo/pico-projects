@@ -21,6 +21,7 @@ CMakeFiles/temp_7seg.dir/D_/Downloads/pico-sdk/src/rp2_common/hardware_irq/irq_h
  D:/Downloads/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
  D:/Downloads/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h
  D:/Downloads/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h
+ D:/Downloads/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h
  D:/Downloads/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h
  D:/Downloads/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S
  D:/Downloads/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
@@ -30,7 +31,6 @@ CMakeFiles/temp_7seg.dir/D_/Downloads/pico-sdk/src/rp2_common/pico_bit_ops/bit_o
  D:/Downloads/pico-sdk/src/boards/include/boards/pico.h
  D:/Downloads/pico-sdk/src/common/pico_base/include/pico/config.h
  D:/Downloads/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
- D:/Downloads/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
  D:/Downloads/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S
  D:/Downloads/pico-sdk/src/rp2_common/pico_platform/include/pico/asm_helper.S
  generated/pico_base/pico/config_autogen.h
@@ -47,7 +47,6 @@ CMakeFiles/temp_7seg.dir/D_/Downloads/pico-sdk/src/rp2_common/pico_double/double
  D:/Downloads/pico-sdk/src/boards/include/boards/pico.h
  D:/Downloads/pico-sdk/src/common/pico_base/include/pico/config.h
  D:/Downloads/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
- D:/Downloads/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
  D:/Downloads/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom/sf_table.h
  D:/Downloads/pico-sdk/src/rp2_common/pico_double/double_aeabi.S
  D:/Downloads/pico-sdk/src/rp2_common/pico_platform/include/pico/asm_helper.S
@@ -56,7 +55,6 @@ CMakeFiles/temp_7seg.dir/D_/Downloads/pico-sdk/src/rp2_common/pico_double/double
  D:/Downloads/pico-sdk/src/boards/include/boards/pico.h
  D:/Downloads/pico-sdk/src/common/pico_base/include/pico/config.h
  D:/Downloads/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
- D:/Downloads/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
  D:/Downloads/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S
  D:/Downloads/pico-sdk/src/rp2_common/pico_platform/include/pico/asm_helper.S
  generated/pico_base/pico/config_autogen.h
@@ -64,7 +62,6 @@ CMakeFiles/temp_7seg.dir/D_/Downloads/pico-sdk/src/rp2_common/pico_float/float_a
  D:/Downloads/pico-sdk/src/boards/include/boards/pico.h
  D:/Downloads/pico-sdk/src/common/pico_base/include/pico/config.h
  D:/Downloads/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
- D:/Downloads/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
  D:/Downloads/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom/sf_table.h
  D:/Downloads/pico-sdk/src/rp2_common/pico_float/float_aeabi.S
  D:/Downloads/pico-sdk/src/rp2_common/pico_platform/include/pico/asm_helper.S
@@ -73,7 +70,6 @@ CMakeFiles/temp_7seg.dir/D_/Downloads/pico-sdk/src/rp2_common/pico_float/float_v
  D:/Downloads/pico-sdk/src/boards/include/boards/pico.h
  D:/Downloads/pico-sdk/src/common/pico_base/include/pico/config.h
  D:/Downloads/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
- D:/Downloads/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
  D:/Downloads/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S
  D:/Downloads/pico-sdk/src/rp2_common/pico_platform/include/pico/asm_helper.S
  generated/pico_base/pico/config_autogen.h
@@ -81,7 +77,6 @@ CMakeFiles/temp_7seg.dir/D_/Downloads/pico-sdk/src/rp2_common/pico_int64_ops/pic
  D:/Downloads/pico-sdk/src/boards/include/boards/pico.h
  D:/Downloads/pico-sdk/src/common/pico_base/include/pico/config.h
  D:/Downloads/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
- D:/Downloads/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
  D:/Downloads/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S
  D:/Downloads/pico-sdk/src/rp2_common/pico_platform/include/pico/asm_helper.S
  generated/pico_base/pico/config_autogen.h
@@ -89,7 +84,6 @@ CMakeFiles/temp_7seg.dir/D_/Downloads/pico-sdk/src/rp2_common/pico_mem_ops/mem_o
  D:/Downloads/pico-sdk/src/boards/include/boards/pico.h
  D:/Downloads/pico-sdk/src/common/pico_base/include/pico/config.h
  D:/Downloads/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
- D:/Downloads/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
  D:/Downloads/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S
  D:/Downloads/pico-sdk/src/rp2_common/pico_platform/include/pico/asm_helper.S
  generated/pico_base/pico/config_autogen.h
@@ -139,6 +133,8 @@ CMakeFiles/temp_7seg.dir/D_/Downloads/pico-sdk/lib/tinyusb/src/class/audio/audio
  D:/Downloads/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h
  D:/Downloads/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h
  D:/Downloads/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
+ D:/Downloads/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h
+ D:/Downloads/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h
  D:/Downloads/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h
  generated/pico_base/pico/config_autogen.h
  generated/pico_base/pico/version.h
@@ -181,6 +177,8 @@ CMakeFiles/temp_7seg.dir/D_/Downloads/pico-sdk/lib/tinyusb/src/class/cdc/cdc_dev
  D:/Downloads/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h
  D:/Downloads/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h
  D:/Downloads/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
+ D:/Downloads/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h
+ D:/Downloads/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h
  D:/Downloads/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h
  generated/pico_base/pico/config_autogen.h
  generated/pico_base/pico/version.h
@@ -222,6 +220,8 @@ CMakeFiles/temp_7seg.dir/D_/Downloads/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_
  D:/Downloads/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h
  D:/Downloads/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h
  D:/Downloads/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
+ D:/Downloads/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h
+ D:/Downloads/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h
  D:/Downloads/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h
  generated/pico_base/pico/config_autogen.h
  generated/pico_base/pico/version.h
@@ -264,6 +264,8 @@ CMakeFiles/temp_7seg.dir/D_/Downloads/pico-sdk/lib/tinyusb/src/class/hid/hid_dev
  D:/Downloads/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h
  D:/Downloads/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h
  D:/Downloads/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
+ D:/Downloads/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h
+ D:/Downloads/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h
  D:/Downloads/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h
  generated/pico_base/pico/config_autogen.h
  generated/pico_base/pico/version.h
@@ -307,6 +309,8 @@ CMakeFiles/temp_7seg.dir/D_/Downloads/pico-sdk/lib/tinyusb/src/class/midi/midi_d
  D:/Downloads/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h
  D:/Downloads/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h
  D:/Downloads/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
+ D:/Downloads/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h
+ D:/Downloads/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h
  D:/Downloads/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h
  generated/pico_base/pico/config_autogen.h
  generated/pico_base/pico/version.h
@@ -350,6 +354,8 @@ CMakeFiles/temp_7seg.dir/D_/Downloads/pico-sdk/lib/tinyusb/src/class/msc/msc_dev
  D:/Downloads/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h
  D:/Downloads/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h
  D:/Downloads/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
+ D:/Downloads/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h
+ D:/Downloads/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h
  D:/Downloads/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h
  generated/pico_base/pico/config_autogen.h
  generated/pico_base/pico/version.h
@@ -392,6 +398,8 @@ CMakeFiles/temp_7seg.dir/D_/Downloads/pico-sdk/lib/tinyusb/src/class/net/net_dev
  D:/Downloads/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h
  D:/Downloads/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h
  D:/Downloads/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
+ D:/Downloads/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h
+ D:/Downloads/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h
  D:/Downloads/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h
  generated/pico_base/pico/config_autogen.h
  generated/pico_base/pico/version.h
@@ -434,6 +442,8 @@ CMakeFiles/temp_7seg.dir/D_/Downloads/pico-sdk/lib/tinyusb/src/class/usbtmc/usbt
  D:/Downloads/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h
  D:/Downloads/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h
  D:/Downloads/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
+ D:/Downloads/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h
+ D:/Downloads/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h
  D:/Downloads/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h
  generated/pico_base/pico/config_autogen.h
  generated/pico_base/pico/version.h
@@ -475,6 +485,8 @@ CMakeFiles/temp_7seg.dir/D_/Downloads/pico-sdk/lib/tinyusb/src/class/vendor/vend
  D:/Downloads/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h
  D:/Downloads/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h
  D:/Downloads/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
+ D:/Downloads/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h
+ D:/Downloads/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h
  D:/Downloads/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h
  generated/pico_base/pico/config_autogen.h
  generated/pico_base/pico/version.h
@@ -513,6 +525,8 @@ CMakeFiles/temp_7seg.dir/D_/Downloads/pico-sdk/lib/tinyusb/src/common/tusb_fifo.
  D:/Downloads/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h
  D:/Downloads/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h
  D:/Downloads/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
+ D:/Downloads/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h
+ D:/Downloads/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h
  D:/Downloads/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h
  generated/pico_base/pico/config_autogen.h
  generated/pico_base/pico/version.h
@@ -577,6 +591,8 @@ CMakeFiles/temp_7seg.dir/D_/Downloads/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
  D:/Downloads/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h
  D:/Downloads/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h
  D:/Downloads/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
+ D:/Downloads/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h
+ D:/Downloads/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h
  D:/Downloads/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h
  generated/pico_base/pico/config_autogen.h
  generated/pico_base/pico/version.h
@@ -641,6 +657,8 @@ CMakeFiles/temp_7seg.dir/D_/Downloads/pico-sdk/lib/tinyusb/src/device/usbd_contr
  D:/Downloads/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h
  D:/Downloads/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h
  D:/Downloads/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
+ D:/Downloads/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h
+ D:/Downloads/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h
  D:/Downloads/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h
  generated/pico_base/pico/config_autogen.h
  generated/pico_base/pico/version.h
@@ -724,6 +742,8 @@ CMakeFiles/temp_7seg.dir/D_/Downloads/pico-sdk/lib/tinyusb/src/portable/raspberr
  D:/Downloads/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h
  D:/Downloads/pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h
  D:/Downloads/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
+ D:/Downloads/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h
+ D:/Downloads/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h
  D:/Downloads/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h
  generated/pico_base/pico/config_autogen.h
  generated/pico_base/pico/version.h
@@ -787,6 +807,8 @@ CMakeFiles/temp_7seg.dir/D_/Downloads/pico-sdk/lib/tinyusb/src/tusb.c.obj
  D:/Downloads/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h
  D:/Downloads/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h
  D:/Downloads/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
+ D:/Downloads/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h
+ D:/Downloads/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h
  D:/Downloads/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h
  generated/pico_base/pico/config_autogen.h
  generated/pico_base/pico/version.h
@@ -881,15 +903,10 @@ CMakeFiles/temp_7seg.dir/D_/Downloads/pico-sdk/src/common/pico_time/time.c.obj
  D:/Downloads/pico-sdk/src/common/pico_util/include/pico/util/pheap.h
  D:/Downloads/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
  D:/Downloads/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
- D:/Downloads/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h
  D:/Downloads/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
  D:/Downloads/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h
- D:/Downloads/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/interp.h
- D:/Downloads/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/padsbank0.h
- D:/Downloads/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/sio.h
  D:/Downloads/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h
  D:/Downloads/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h
- D:/Downloads/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h
  D:/Downloads/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h
  D:/Downloads/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h
  D:/Downloads/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
@@ -924,7 +941,6 @@ CMakeFiles/temp_7seg.dir/D_/Downloads/pico-sdk/src/common/pico_util/datetime.c.o
  D:/Downloads/pico-sdk/src/common/pico_util/datetime.c
  D:/Downloads/pico-sdk/src/common/pico_util/include/pico/util/datetime.h
  D:/Downloads/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
- D:/Downloads/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
  D:/Downloads/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
  generated/pico_base/pico/config_autogen.h
  generated/pico_base/pico/version.h
@@ -938,7 +954,6 @@ CMakeFiles/temp_7seg.dir/D_/Downloads/pico-sdk/src/common/pico_util/pheap.c.obj
  D:/Downloads/pico-sdk/src/common/pico_util/include/pico/util/pheap.h
  D:/Downloads/pico-sdk/src/common/pico_util/pheap.c
  D:/Downloads/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
- D:/Downloads/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
  D:/Downloads/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
  generated/pico_base/pico/config_autogen.h
  generated/pico_base/pico/version.h
@@ -1239,7 +1254,6 @@ CMakeFiles/temp_7seg.dir/D_/Downloads/pico-sdk/src/rp2_common/pico_bootrom/bootr
  D:/Downloads/pico-sdk/src/common/pico_base/include/pico/error.h
  D:/Downloads/pico-sdk/src/common/pico_base/include/pico/types.h
  D:/Downloads/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
- D:/Downloads/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
  D:/Downloads/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c
  D:/Downloads/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom.h
  D:/Downloads/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
@@ -1253,7 +1267,6 @@ CMakeFiles/temp_7seg.dir/D_/Downloads/pico-sdk/src/rp2_common/pico_double/double
  D:/Downloads/pico-sdk/src/common/pico_base/include/pico/error.h
  D:/Downloads/pico-sdk/src/common/pico_base/include/pico/types.h
  D:/Downloads/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
- D:/Downloads/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
  D:/Downloads/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom.h
  D:/Downloads/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom/sf_table.h
  D:/Downloads/pico-sdk/src/rp2_common/pico_double/double_init_rom.c
@@ -1261,9 +1274,9 @@ CMakeFiles/temp_7seg.dir/D_/Downloads/pico-sdk/src/rp2_common/pico_double/double
  generated/pico_base/pico/config_autogen.h
  generated/pico_base/pico/version.h
 CMakeFiles/temp_7seg.dir/D_/Downloads/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
+ D:/Downloads/pico-sdk/src/common/pico_base/include/pico/assert.h
  D:/Downloads/pico-sdk/src/common/pico_base/include/pico/types.h
  D:/Downloads/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
- D:/Downloads/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
  D:/Downloads/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom/sf_table.h
  D:/Downloads/pico-sdk/src/rp2_common/pico_double/double_math.c
  D:/Downloads/pico-sdk/src/rp2_common/pico_double/include/pico/double.h
@@ -1278,11 +1291,13 @@ CMakeFiles/temp_7seg.dir/D_/Downloads/pico-sdk/src/rp2_common/pico_fix/rp2040_us
  D:/Downloads/pico-sdk/src/common/pico_time/include/pico/time.h
  D:/Downloads/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
  D:/Downloads/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
+ D:/Downloads/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/io_bank0.h
  D:/Downloads/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h
  D:/Downloads/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
  D:/Downloads/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h
  D:/Downloads/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/usb.h
  D:/Downloads/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/interp.h
+ D:/Downloads/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/iobank0.h
  D:/Downloads/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/padsbank0.h
  D:/Downloads/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/sio.h
  D:/Downloads/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h
@@ -1303,7 +1318,6 @@ CMakeFiles/temp_7seg.dir/D_/Downloads/pico-sdk/src/rp2_common/pico_float/float_i
  D:/Downloads/pico-sdk/src/common/pico_base/include/pico/error.h
  D:/Downloads/pico-sdk/src/common/pico_base/include/pico/types.h
  D:/Downloads/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
- D:/Downloads/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
  D:/Downloads/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom.h
  D:/Downloads/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom/sf_table.h
  D:/Downloads/pico-sdk/src/rp2_common/pico_float/float_init_rom.c
@@ -1311,9 +1325,9 @@ CMakeFiles/temp_7seg.dir/D_/Downloads/pico-sdk/src/rp2_common/pico_float/float_i
  generated/pico_base/pico/config_autogen.h
  generated/pico_base/pico/version.h
 CMakeFiles/temp_7seg.dir/D_/Downloads/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
+ D:/Downloads/pico-sdk/src/common/pico_base/include/pico/assert.h
  D:/Downloads/pico-sdk/src/common/pico_base/include/pico/types.h
  D:/Downloads/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
- D:/Downloads/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
  D:/Downloads/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom/sf_table.h
  D:/Downloads/pico-sdk/src/rp2_common/pico_float/float_math.c
  D:/Downloads/pico-sdk/src/rp2_common/pico_float/include/pico/float.h
@@ -1332,6 +1346,7 @@ CMakeFiles/temp_7seg.dir/D_/Downloads/pico-sdk/src/rp2_common/pico_malloc/pico_m
  D:/Downloads/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
  D:/Downloads/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h
  D:/Downloads/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h
+ D:/Downloads/pico-sdk/src/rp2_common/pico_malloc/include/pico/malloc.h
  D:/Downloads/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c
  D:/Downloads/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
  generated/pico_base/pico/config_autogen.h
@@ -1404,7 +1419,6 @@ CMakeFiles/temp_7seg.dir/D_/Downloads/pico-sdk/src/rp2_common/pico_printf/printf
  D:/Downloads/pico-sdk/src/common/pico_base/include/pico/error.h
  D:/Downloads/pico-sdk/src/common/pico_base/include/pico/types.h
  D:/Downloads/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
- D:/Downloads/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
  D:/Downloads/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
  D:/Downloads/pico-sdk/src/rp2_common/pico_printf/include/pico/printf.h
  D:/Downloads/pico-sdk/src/rp2_common/pico_printf/printf.c
@@ -1459,7 +1473,6 @@ CMakeFiles/temp_7seg.dir/D_/Downloads/pico-sdk/src/rp2_common/pico_standard_link
  D:/Downloads/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/defs.h
  D:/Downloads/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/structure.h
  D:/Downloads/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
- D:/Downloads/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
  D:/Downloads/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
  D:/Downloads/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c
  generated/pico_base/pico/config_autogen.h
@@ -1488,6 +1501,74 @@ CMakeFiles/temp_7seg.dir/D_/Downloads/pico-sdk/src/rp2_common/pico_stdio/stdio.c
  D:/Downloads/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio/driver.h
  D:/Downloads/pico-sdk/src/rp2_common/pico_stdio/stdio.c
  D:/Downloads/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h
+ generated/pico_base/pico/config_autogen.h
+ generated/pico_base/pico/version.h
+CMakeFiles/temp_7seg.dir/D_/Downloads/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+ D:/Downloads/pico-sdk/lib/tinyusb/src/class/audio/audio.h
+ D:/Downloads/pico-sdk/lib/tinyusb/src/class/audio/audio_device.h
+ D:/Downloads/pico-sdk/lib/tinyusb/src/class/bth/bth_device.h
+ D:/Downloads/pico-sdk/lib/tinyusb/src/class/cdc/cdc.h
+ D:/Downloads/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.h
+ D:/Downloads/pico-sdk/lib/tinyusb/src/class/cdc/cdc_host.h
+ D:/Downloads/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.h
+ D:/Downloads/pico-sdk/lib/tinyusb/src/class/hid/hid.h
+ D:/Downloads/pico-sdk/lib/tinyusb/src/class/hid/hid_device.h
+ D:/Downloads/pico-sdk/lib/tinyusb/src/class/hid/hid_host.h
+ D:/Downloads/pico-sdk/lib/tinyusb/src/class/midi/midi.h
+ D:/Downloads/pico-sdk/lib/tinyusb/src/class/midi/midi_device.h
+ D:/Downloads/pico-sdk/lib/tinyusb/src/class/msc/msc.h
+ D:/Downloads/pico-sdk/lib/tinyusb/src/class/msc/msc_device.h
+ D:/Downloads/pico-sdk/lib/tinyusb/src/class/msc/msc_host.h
+ D:/Downloads/pico-sdk/lib/tinyusb/src/class/net/net_device.h
+ D:/Downloads/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc.h
+ D:/Downloads/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.h
+ D:/Downloads/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.h
+ D:/Downloads/pico-sdk/lib/tinyusb/src/class/vendor/vendor_host.h
+ D:/Downloads/pico-sdk/lib/tinyusb/src/common/tusb_common.h
+ D:/Downloads/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h
+ D:/Downloads/pico-sdk/lib/tinyusb/src/common/tusb_error.h
+ D:/Downloads/pico-sdk/lib/tinyusb/src/common/tusb_fifo.h
+ D:/Downloads/pico-sdk/lib/tinyusb/src/common/tusb_timeout.h
+ D:/Downloads/pico-sdk/lib/tinyusb/src/common/tusb_types.h
+ D:/Downloads/pico-sdk/lib/tinyusb/src/common/tusb_verify.h
+ D:/Downloads/pico-sdk/lib/tinyusb/src/device/usbd.h
+ D:/Downloads/pico-sdk/lib/tinyusb/src/device/usbd_pvt.h
+ D:/Downloads/pico-sdk/lib/tinyusb/src/host/hcd.h
+ D:/Downloads/pico-sdk/lib/tinyusb/src/host/usbh.h
+ D:/Downloads/pico-sdk/lib/tinyusb/src/osal/osal.h
+ D:/Downloads/pico-sdk/lib/tinyusb/src/osal/osal_freertos.h
+ D:/Downloads/pico-sdk/lib/tinyusb/src/osal/osal_mynewt.h
+ D:/Downloads/pico-sdk/lib/tinyusb/src/osal/osal_none.h
+ D:/Downloads/pico-sdk/lib/tinyusb/src/osal/osal_pico.h
+ D:/Downloads/pico-sdk/lib/tinyusb/src/tusb.h
+ D:/Downloads/pico-sdk/lib/tinyusb/src/tusb_option.h
+ D:/Downloads/pico-sdk/src/boards/include/boards/pico.h
+ D:/Downloads/pico-sdk/src/common/pico_base/include/pico.h
+ D:/Downloads/pico-sdk/src/common/pico_base/include/pico/assert.h
+ D:/Downloads/pico-sdk/src/common/pico_base/include/pico/config.h
+ D:/Downloads/pico-sdk/src/common/pico_base/include/pico/error.h
+ D:/Downloads/pico-sdk/src/common/pico_base/include/pico/types.h
+ D:/Downloads/pico-sdk/src/common/pico_sync/include/pico/critical_section.h
+ D:/Downloads/pico-sdk/src/common/pico_sync/include/pico/lock_core.h
+ D:/Downloads/pico-sdk/src/common/pico_sync/include/pico/mutex.h
+ D:/Downloads/pico-sdk/src/common/pico_sync/include/pico/sem.h
+ D:/Downloads/pico-sdk/src/common/pico_time/include/pico/time.h
+ D:/Downloads/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
+ D:/Downloads/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
+ D:/Downloads/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
+ D:/Downloads/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h
+ D:/Downloads/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h
+ D:/Downloads/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h
+ D:/Downloads/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h
+ D:/Downloads/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h
+ D:/Downloads/pico-sdk/src/rp2_common/hardware_watchdog/include/hardware/watchdog.h
+ D:/Downloads/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom.h
+ D:/Downloads/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
+ D:/Downloads/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h
+ D:/Downloads/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h
+ D:/Downloads/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb/reset_interface.h
+ D:/Downloads/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h
+ D:/Downloads/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c
  generated/pico_base/pico/config_autogen.h
  generated/pico_base/pico/version.h
 CMakeFiles/temp_7seg.dir/D_/Downloads/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
@@ -1620,6 +1701,9 @@ CMakeFiles/temp_7seg.dir/D_/Downloads/pico-sdk/src/rp2_common/pico_stdio_usb/std
  D:/Downloads/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h
  D:/Downloads/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h
  D:/Downloads/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
+ D:/Downloads/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h
+ D:/Downloads/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h
+ D:/Downloads/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb/reset_interface.h
  D:/Downloads/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h
  D:/Downloads/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c
  generated/pico_base/pico/config_autogen.h
@@ -1664,10 +1748,8 @@ CMakeFiles/temp_7seg.dir/D_/Downloads/pico-sdk/src/rp2_common/pico_stdlib/stdlib
  D:/Downloads/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
  generated/pico_base/pico/config_autogen.h
  generated/pico_base/pico/version.h
-CMakeFiles/temp_7seg.dir/D_/Downloads/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
- D:/Downloads/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp
-CMakeFiles/temp_7seg.dir/main.cpp.obj
- C:/Users/AndreClerigo/Desktop/Maker/Pico/Projects/temp_7seg/main.cpp
+CMakeFiles/temp_7seg.dir/main.c.obj
+ C:/Users/AndreClerigo/Desktop/Maker/Pico/Projects/temp_7seg/main.c
  D:/Downloads/pico-sdk/src/boards/include/boards/pico.h
  D:/Downloads/pico-sdk/src/common/pico_base/include/pico.h
  D:/Downloads/pico-sdk/src/common/pico_base/include/pico/assert.h
@@ -1682,24 +1764,18 @@ CMakeFiles/temp_7seg.dir/main.cpp.obj
  D:/Downloads/pico-sdk/src/common/pico_sync/include/pico/sync.h
  D:/Downloads/pico-sdk/src/common/pico_time/include/pico/time.h
  D:/Downloads/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
- D:/Downloads/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/adc.h
  D:/Downloads/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
- D:/Downloads/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h
- D:/Downloads/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h
  D:/Downloads/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h
  D:/Downloads/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
  D:/Downloads/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h
  D:/Downloads/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h
- D:/Downloads/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/adc.h
  D:/Downloads/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/interp.h
  D:/Downloads/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/padsbank0.h
  D:/Downloads/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/sio.h
  D:/Downloads/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h
  D:/Downloads/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/uart.h
- D:/Downloads/pico-sdk/src/rp2_common/hardware_adc/include/hardware/adc.h
  D:/Downloads/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h
  D:/Downloads/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h
- D:/Downloads/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h
  D:/Downloads/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h
  D:/Downloads/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h
  D:/Downloads/pico-sdk/src/rp2_common/hardware_uart/include/hardware/uart.h
@@ -1709,3 +1785,5 @@ CMakeFiles/temp_7seg.dir/main.cpp.obj
  D:/Downloads/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h
  generated/pico_base/pico/config_autogen.h
  generated/pico_base/pico/version.h
+CMakeFiles/temp_7seg.dir/D_/Downloads/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
+ D:/Downloads/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp

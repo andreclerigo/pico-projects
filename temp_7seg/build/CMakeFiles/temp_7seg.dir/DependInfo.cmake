@@ -26,6 +26,7 @@ set(CMAKE_TARGET_DEFINITIONS_ASM
   "CFG_TUSB_OS=OPT_OS_PICO"
   "PICO_BIT_OPS_PICO=1"
   "PICO_BOARD=\"pico\""
+  "PICO_BOOT2_NAME=\"boot2_w25q080\""
   "PICO_BUILD=1"
   "PICO_CMAKE_BUILD_TYPE=\"Debug\""
   "PICO_COPY_TO_RAM=0"
@@ -79,6 +80,7 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "D:/Downloads/pico-sdk/src/rp2_common/pico_double/include"
   "D:/Downloads/pico-sdk/src/rp2_common/pico_int64_ops/include"
   "D:/Downloads/pico-sdk/src/rp2_common/pico_float/include"
+  "D:/Downloads/pico-sdk/src/rp2_common/pico_malloc/include"
   "D:/Downloads/pico-sdk/src/common/pico_binary_info/include"
   "D:/Downloads/pico-sdk/src/rp2_common/pico_stdio/include"
   "D:/Downloads/pico-sdk/src/rp2_common/pico_stdio_usb/include"
@@ -139,9 +141,11 @@ set(CMAKE_DEPENDS_CHECK_C
   "D:/Downloads/pico-sdk/src/rp2_common/pico_runtime/runtime.c" "C:/Users/AndreClerigo/Desktop/Maker/Pico/Projects/temp_7seg/build/CMakeFiles/temp_7seg.dir/D_/Downloads/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj"
   "D:/Downloads/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c" "C:/Users/AndreClerigo/Desktop/Maker/Pico/Projects/temp_7seg/build/CMakeFiles/temp_7seg.dir/D_/Downloads/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj"
   "D:/Downloads/pico-sdk/src/rp2_common/pico_stdio/stdio.c" "C:/Users/AndreClerigo/Desktop/Maker/Pico/Projects/temp_7seg/build/CMakeFiles/temp_7seg.dir/D_/Downloads/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj"
+  "D:/Downloads/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c" "C:/Users/AndreClerigo/Desktop/Maker/Pico/Projects/temp_7seg/build/CMakeFiles/temp_7seg.dir/D_/Downloads/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj"
   "D:/Downloads/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c" "C:/Users/AndreClerigo/Desktop/Maker/Pico/Projects/temp_7seg/build/CMakeFiles/temp_7seg.dir/D_/Downloads/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj"
   "D:/Downloads/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c" "C:/Users/AndreClerigo/Desktop/Maker/Pico/Projects/temp_7seg/build/CMakeFiles/temp_7seg.dir/D_/Downloads/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj"
   "D:/Downloads/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c" "C:/Users/AndreClerigo/Desktop/Maker/Pico/Projects/temp_7seg/build/CMakeFiles/temp_7seg.dir/D_/Downloads/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj"
+  "C:/Users/AndreClerigo/Desktop/Maker/Pico/Projects/temp_7seg/main.c" "C:/Users/AndreClerigo/Desktop/Maker/Pico/Projects/temp_7seg/build/CMakeFiles/temp_7seg.dir/main.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
@@ -152,6 +156,7 @@ set(CMAKE_TARGET_DEFINITIONS_C
   "CFG_TUSB_OS=OPT_OS_PICO"
   "PICO_BIT_OPS_PICO=1"
   "PICO_BOARD=\"pico\""
+  "PICO_BOOT2_NAME=\"boot2_w25q080\""
   "PICO_BUILD=1"
   "PICO_CMAKE_BUILD_TYPE=\"Debug\""
   "PICO_COPY_TO_RAM=0"
@@ -205,6 +210,7 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   "D:/Downloads/pico-sdk/src/rp2_common/pico_double/include"
   "D:/Downloads/pico-sdk/src/rp2_common/pico_int64_ops/include"
   "D:/Downloads/pico-sdk/src/rp2_common/pico_float/include"
+  "D:/Downloads/pico-sdk/src/rp2_common/pico_malloc/include"
   "D:/Downloads/pico-sdk/src/common/pico_binary_info/include"
   "D:/Downloads/pico-sdk/src/rp2_common/pico_stdio/include"
   "D:/Downloads/pico-sdk/src/rp2_common/pico_stdio_usb/include"
@@ -217,7 +223,6 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   )
 set(CMAKE_DEPENDS_CHECK_CXX
   "D:/Downloads/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp" "C:/Users/AndreClerigo/Desktop/Maker/Pico/Projects/temp_7seg/build/CMakeFiles/temp_7seg.dir/D_/Downloads/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj"
-  "C:/Users/AndreClerigo/Desktop/Maker/Pico/Projects/temp_7seg/main.cpp" "C:/Users/AndreClerigo/Desktop/Maker/Pico/Projects/temp_7seg/build/CMakeFiles/temp_7seg.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -228,6 +233,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
   "CFG_TUSB_OS=OPT_OS_PICO"
   "PICO_BIT_OPS_PICO=1"
   "PICO_BOARD=\"pico\""
+  "PICO_BOOT2_NAME=\"boot2_w25q080\""
   "PICO_BUILD=1"
   "PICO_CMAKE_BUILD_TYPE=\"Debug\""
   "PICO_COPY_TO_RAM=0"
@@ -281,6 +287,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "D:/Downloads/pico-sdk/src/rp2_common/pico_double/include"
   "D:/Downloads/pico-sdk/src/rp2_common/pico_int64_ops/include"
   "D:/Downloads/pico-sdk/src/rp2_common/pico_float/include"
+  "D:/Downloads/pico-sdk/src/rp2_common/pico_malloc/include"
   "D:/Downloads/pico-sdk/src/common/pico_binary_info/include"
   "D:/Downloads/pico-sdk/src/rp2_common/pico_stdio/include"
   "D:/Downloads/pico-sdk/src/rp2_common/pico_stdio_usb/include"

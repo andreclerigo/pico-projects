@@ -17,14 +17,12 @@ pico/config.h
 D:/Downloads/pico-sdk/src/common/pico_base/include/pico/config.h
 pico/platform.h
 D:/Downloads/pico-sdk/src/common/pico_base/include/pico/platform.h
-pico/assert.h
-D:/Downloads/pico-sdk/src/common/pico_base/include/pico/assert.h
 pico/error.h
 D:/Downloads/pico-sdk/src/common/pico_base/include/pico/error.h
 
 D:/Downloads/pico-sdk/src/common/pico_base/include/pico/assert.h
-pico/types.h
-D:/Downloads/pico-sdk/src/common/pico_base/include/pico/pico/types.h
+stdbool.h
+-
 cassert
 -
 assert.h
@@ -37,6 +35,8 @@ D:/Downloads/pico-sdk/src/common/pico_base/include/pico/pico/config_autogen.h
 D:/Downloads/pico-sdk/src/common/pico_base/include/pico/error.h
 
 D:/Downloads/pico-sdk/src/common/pico_base/include/pico/types.h
+pico/assert.h
+D:/Downloads/pico-sdk/src/common/pico_base/include/pico/pico/assert.h
 stdint.h
 -
 stdbool.h
@@ -47,16 +47,22 @@ stddef.h
 D:/Downloads/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/defs.h
 
 D:/Downloads/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
-hardware/regs/addressmap.h
-D:/Downloads/pico-sdk/src/rp2040/hardware_regs/include/hardware/hardware/regs/addressmap.h
 
 D:/Downloads/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
+hardware/platform_defs.h
+D:/Downloads/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/hardware/platform_defs.h
 
 D:/Downloads/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h
 
 D:/Downloads/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h
 
 D:/Downloads/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
+
+D:/Downloads/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h
+pico.h
+D:/Downloads/pico-sdk/src/rp2_common/hardware_base/include/hardware/pico.h
+hardware/regs/addressmap.h
+D:/Downloads/pico-sdk/src/rp2_common/hardware_base/include/hardware/hardware/regs/addressmap.h
 
 D:/Downloads/pico-sdk/src/rp2_common/hardware_divider/divider.S
 pico/asm_helper.S
@@ -69,6 +75,8 @@ D:/Downloads/pico-sdk/src/rp2_common/hardware_divider/hardware/regs/sio.h
 D:/Downloads/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h
 pico.h
 D:/Downloads/pico-sdk/src/rp2_common/hardware_irq/include/hardware/pico.h
+hardware/address_mapped.h
+D:/Downloads/pico-sdk/src/rp2_common/hardware_irq/include/hardware/hardware/address_mapped.h
 hardware/regs/intctrl.h
 D:/Downloads/pico-sdk/src/rp2_common/hardware_irq/include/hardware/hardware/regs/intctrl.h
 hardware/regs/m0plus.h

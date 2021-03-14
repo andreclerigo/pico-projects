@@ -28,7 +28,7 @@
 					[
 						2,
 						3,
-						66
+						67
 					],
 					"minimumCMakeVersion" : 
 					{
@@ -54,7 +54,7 @@
 					[
 						4,
 						15,
-						63
+						64
 					],
 					"minimumCMakeVersion" : 
 					{
@@ -236,7 +236,8 @@
 						58,
 						59,
 						60,
-						62
+						61,
+						63
 					],
 					"minimumCMakeVersion" : 
 					{
@@ -513,6 +514,16 @@
 					]
 				},
 				{
+					"build" : "pico-sdk/src/rp2_common/pico_bootsel_via_double_reset",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 15,
+					"projectIndex" : 1,
+					"source" : "D:/Downloads/pico-sdk/src/rp2_common/pico_bootsel_via_double_reset"
+				},
+				{
 					"build" : "pico-sdk/src/rp2_common/pico_multicore",
 					"minimumCMakeVersion" : 
 					{
@@ -696,7 +707,7 @@
 					"build" : "pico-sdk/src/rp2_common/pico_fix",
 					"childIndexes" : 
 					[
-						61
+						62
 					],
 					"minimumCMakeVersion" : 
 					{
@@ -712,7 +723,7 @@
 					{
 						"string" : "3.13"
 					},
-					"parentIndex" : 60,
+					"parentIndex" : 61,
 					"projectIndex" : 1,
 					"source" : "D:/Downloads/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration"
 				},
@@ -730,8 +741,8 @@
 					"build" : "pico-sdk/src/rp2040",
 					"childIndexes" : 
 					[
-						64,
-						65
+						65,
+						66
 					],
 					"minimumCMakeVersion" : 
 					{
@@ -747,7 +758,7 @@
 					{
 						"string" : "3.13"
 					},
-					"parentIndex" : 63,
+					"parentIndex" : 64,
 					"projectIndex" : 1,
 					"source" : "D:/Downloads/pico-sdk/src/rp2040/hardware_regs"
 				},
@@ -757,7 +768,7 @@
 					{
 						"string" : "3.13"
 					},
-					"parentIndex" : 63,
+					"parentIndex" : 64,
 					"projectIndex" : 1,
 					"source" : "D:/Downloads/pico-sdk/src/rp2040/hardware_structs"
 				},
@@ -859,7 +870,8 @@
 						63,
 						64,
 						65,
-						66
+						66,
+						67
 					],
 					"name" : "pico_sdk",
 					"parentIndex" : 0,
@@ -876,35 +888,35 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "ELF2UF2Build::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ELF2UF2Build-Debug-7c9ee7d9f7d3540532db.json",
+					"jsonFile" : "target-ELF2UF2Build-Debug-e805e2bc5521ab9c35e1.json",
 					"name" : "ELF2UF2Build",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 41,
 					"id" : "bs2_default::@bc554eaed616d198a22d",
-					"jsonFile" : "target-bs2_default-Debug-e1d6fefbf44881a5c90a.json",
+					"jsonFile" : "target-bs2_default-Debug-d8d90842cec86e10de3f.json",
 					"name" : "bs2_default",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 41,
 					"id" : "bs2_default_bin::@bc554eaed616d198a22d",
-					"jsonFile" : "target-bs2_default_bin-Debug-677c17d44f078446fdc9.json",
+					"jsonFile" : "target-bs2_default_bin-Debug-0040d414313bf0b6fb3d.json",
 					"name" : "bs2_default_bin",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 41,
 					"id" : "bs2_default_padded_checksummed_asm::@bc554eaed616d198a22d",
-					"jsonFile" : "target-bs2_default_padded_checksummed_asm-Debug-75c0391c4e5f091315f4.json",
+					"jsonFile" : "target-bs2_default_padded_checksummed_asm-Debug-f1b3d5c5201e904a1e3c.json",
 					"name" : "bs2_default_padded_checksummed_asm",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "temp_7seg::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-temp_7seg-Debug-3ad563c01f96df69b011.json",
+					"jsonFile" : "target-temp_7seg-Debug-db98e5e9c4dffda73618.json",
 					"name" : "temp_7seg",
 					"projectIndex" : 0
 				}

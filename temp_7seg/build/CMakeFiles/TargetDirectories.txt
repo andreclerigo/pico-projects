@@ -87,6 +87,8 @@ C:/Users/AndreClerigo/Desktop/Maker/Pico/Projects/temp_7seg/build/pico-sdk/src/r
 C:/Users/AndreClerigo/Desktop/Maker/Pico/Projects/temp_7seg/build/pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin.dir
 C:/Users/AndreClerigo/Desktop/Maker/Pico/Projects/temp_7seg/build/pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir
 C:/Users/AndreClerigo/Desktop/Maker/Pico/Projects/temp_7seg/build/pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/rebuild_cache.dir
+C:/Users/AndreClerigo/Desktop/Maker/Pico/Projects/temp_7seg/build/pico-sdk/src/rp2_common/pico_bootsel_via_double_reset/CMakeFiles/edit_cache.dir
+C:/Users/AndreClerigo/Desktop/Maker/Pico/Projects/temp_7seg/build/pico-sdk/src/rp2_common/pico_bootsel_via_double_reset/CMakeFiles/rebuild_cache.dir
 C:/Users/AndreClerigo/Desktop/Maker/Pico/Projects/temp_7seg/build/pico-sdk/src/rp2_common/pico_multicore/CMakeFiles/edit_cache.dir
 C:/Users/AndreClerigo/Desktop/Maker/Pico/Projects/temp_7seg/build/pico-sdk/src/rp2_common/pico_multicore/CMakeFiles/rebuild_cache.dir
 C:/Users/AndreClerigo/Desktop/Maker/Pico/Projects/temp_7seg/build/pico-sdk/src/rp2_common/pico_unique_id/CMakeFiles/edit_cache.dir

@@ -1,9 +1,8 @@
 #include <stdio.h>
+#include <math.h>
 #include "pico/stdlib.h"
 #include "hardware/gpio.h"
-#include "hardware/adc.h"
 #include "pico/multicore.h"
-#include "hardware/irq.h"
 
 int displays[] = {15, 12, 11, 20};
 const int pinA = 14;
@@ -21,18 +20,27 @@ const int D4 = 20;
 bool dot = false;
 char str[5];
 
+const uint LED_PIN = PICO_DEFAULT_LED_PIN;
+const uint DHT_PIN = 28;
+const uint MAX_TIMINGS = 85;
+
 /**
-    A
-   ---
-F |   | B
-  | G |
-   ---
-E |   | C
-  |   | 
-   ---  ::
-    D   DP
+  --A--
+  F   B
+  --G--
+  E   C
+  --D-- ::
+        DP
  **/
 
+typedef struct {
+    float humidity;
+    float temp_celsius;
+} dht_reading;
+
+void read_from_dht(dht_reading *result);
+
+// Light up the right display
 void segment(int displays[], int index) 
 {
   for(int i = 0; i < 4; i++) {
@@ -177,19 +185,13 @@ void nine(bool dot)
 // Core 1 Main Code
 void core1_code()
 {
-    // Configure temperature sensor
-    adc_init();
-    adc_set_temp_sensor_enabled(true);
-    adc_select_input(4);
-
-    // Get the temperature from then sensor in ºC
-    float conversion_factor = 3.3f / (1 << 12);
-
     while (true)
     {
-        float voltage = adc_read() * conversion_factor;
-        float temp = 27 - ((voltage - 0.706)/0.001721f);
-        sprintf(str, "%.2f", temp);  // Convert float in char array
+        dht_reading reading;
+        read_from_dht(&reading);
+        float temp = reading.temp_celsius;
+
+        sprintf(str, "%.2f", temp);
 
         //printf("%.4f\n", temp);  // Strange conversion debug
         printf("Temperature: %.2f\n", temp);  // Serial Debug
@@ -230,6 +232,9 @@ int main()
     gpio_init(D2);
     gpio_init(D3);
     gpio_init(D4);
+    gpio_init(LED_PIN);
+    gpio_init(DHT_PIN);
+    gpio_set_dir(LED_PIN, GPIO_OUT);
     gpio_set_dir(pinA, GPIO_OUT);     
     gpio_set_dir(pinB, GPIO_OUT);     
     gpio_set_dir(pinC, GPIO_OUT);     
@@ -244,8 +249,7 @@ int main()
     gpio_set_dir(D4, GPIO_OUT);
 
     while(true)
-    {   
-        
+    {     
         for (int i = 0; i < 5; i++)
         {   
             dot = false;
@@ -298,4 +302,50 @@ int main()
         }
     }
     return 0;
+}
+
+void read_from_dht(dht_reading *result) {
+    int data[5] = {0, 0, 0, 0, 0};
+    uint last = 1;
+    uint j = 0;
+
+    gpio_set_dir(DHT_PIN, GPIO_OUT);
+    gpio_put(DHT_PIN, 0);
+    sleep_ms(20);
+    gpio_set_dir(DHT_PIN, GPIO_IN);
+
+    gpio_put(LED_PIN, 1);
+    for (uint i = 0; i < MAX_TIMINGS; i++) {
+        uint count = 0;
+        while (gpio_get(DHT_PIN) == last) {
+            count++;
+            sleep_us(1);
+            if (count == 255) break;
+        }
+        last = gpio_get(DHT_PIN);
+        if (count == 255) break;
+
+        if ((i >= 4) && (i % 2 == 0)) {
+            data[j / 8] <<= 1;
+            if (count > 16) data[j / 8] |= 1;
+            j++;
+        }
+    }
+    gpio_put(LED_PIN, 0);
+
+    if ((j >= 40) && (data[4] == ((data[0] + data[1] + data[2] + data[3]) & 0xFF))) {
+        result->humidity = (float) ((data[0] << 8) + data[1]) / 10;
+        if (result->humidity > 100) {
+            result->humidity = data[0];
+        }
+        result->temp_celsius = (float) (((data[2] & 0x7F) << 8) + data[3]) / 10;
+        if (result->temp_celsius > 125) {
+            result->temp_celsius = data[2];
+        }
+        if (data[2] & 0x80) {
+            result->temp_celsius = -result->temp_celsius;
+        }
+    } else {
+        printf("Bad data\n");
+    }
 }

@@ -452,6 +452,7 @@ pico-sdk\src\rp2_common\all: pico-sdk\src\rp2_common\hardware_xosc\all
 pico-sdk\src\rp2_common\all: pico-sdk\src\rp2_common\pico_bootrom\all
 pico-sdk\src\rp2_common\all: pico-sdk\src\rp2_common\pico_platform\all
 pico-sdk\src\rp2_common\all: pico-sdk\src\rp2_common\boot_stage2\all
+pico-sdk\src\rp2_common\all: pico-sdk\src\rp2_common\pico_bootsel_via_double_reset\all
 pico-sdk\src\rp2_common\all: pico-sdk\src\rp2_common\pico_multicore\all
 pico-sdk\src\rp2_common\all: pico-sdk\src\rp2_common\pico_unique_id\all
 pico-sdk\src\rp2_common\all: pico-sdk\src\rp2_common\pico_bit_ops\all
@@ -502,6 +503,7 @@ pico-sdk\src\rp2_common\preinstall: pico-sdk\src\rp2_common\hardware_xosc\preins
 pico-sdk\src\rp2_common\preinstall: pico-sdk\src\rp2_common\pico_bootrom\preinstall
 pico-sdk\src\rp2_common\preinstall: pico-sdk\src\rp2_common\pico_platform\preinstall
 pico-sdk\src\rp2_common\preinstall: pico-sdk\src\rp2_common\boot_stage2\preinstall
+pico-sdk\src\rp2_common\preinstall: pico-sdk\src\rp2_common\pico_bootsel_via_double_reset\preinstall
 pico-sdk\src\rp2_common\preinstall: pico-sdk\src\rp2_common\pico_multicore\preinstall
 pico-sdk\src\rp2_common\preinstall: pico-sdk\src\rp2_common\pico_unique_id\preinstall
 pico-sdk\src\rp2_common\preinstall: pico-sdk\src\rp2_common\pico_bit_ops\preinstall
@@ -552,6 +554,7 @@ pico-sdk\src\rp2_common\clean: pico-sdk\src\rp2_common\hardware_xosc\clean
 pico-sdk\src\rp2_common\clean: pico-sdk\src\rp2_common\pico_bootrom\clean
 pico-sdk\src\rp2_common\clean: pico-sdk\src\rp2_common\pico_platform\clean
 pico-sdk\src\rp2_common\clean: pico-sdk\src\rp2_common\boot_stage2\clean
+pico-sdk\src\rp2_common\clean: pico-sdk\src\rp2_common\pico_bootsel_via_double_reset\clean
 pico-sdk\src\rp2_common\clean: pico-sdk\src\rp2_common\pico_multicore\clean
 pico-sdk\src\rp2_common\clean: pico-sdk\src\rp2_common\pico_unique_id\clean
 pico-sdk\src\rp2_common\clean: pico-sdk\src\rp2_common\pico_bit_ops\clean
@@ -1046,6 +1049,24 @@ pico-sdk\src\rp2_common\pico_bootrom\clean:
 .PHONY : pico-sdk\src\rp2_common\pico_bootrom\clean
 
 #=============================================================================
+# Directory level rules for directory pico-sdk\src\rp2_common\pico_bootsel_via_double_reset
+
+# Recursive "all" directory target.
+pico-sdk\src\rp2_common\pico_bootsel_via_double_reset\all:
+
+.PHONY : pico-sdk\src\rp2_common\pico_bootsel_via_double_reset\all
+
+# Recursive "preinstall" directory target.
+pico-sdk\src\rp2_common\pico_bootsel_via_double_reset\preinstall:
+
+.PHONY : pico-sdk\src\rp2_common\pico_bootsel_via_double_reset\preinstall
+
+# Recursive "clean" directory target.
+pico-sdk\src\rp2_common\pico_bootsel_via_double_reset\clean:
+
+.PHONY : pico-sdk\src\rp2_common\pico_bootsel_via_double_reset\clean
+
+#=============================================================================
 # Directory level rules for directory pico-sdk\src\rp2_common\pico_cxx_options
 
 # Recursive "all" directory target.
@@ -1449,12 +1470,12 @@ CMakeFiles\temp_7seg.dir\all: CMakeFiles\ELF2UF2Build.dir\all
 CMakeFiles\temp_7seg.dir\all: pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_padded_checksummed_asm.dir\all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\temp_7seg.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\temp_7seg.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\temp_7seg.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\temp_7seg.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\AndreClerigo\Desktop\Maker\Pico\Projects\temp_7seg\build\CMakeFiles --progress-num=14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79 "Built target temp_7seg"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\AndreClerigo\Desktop\Maker\Pico\Projects\temp_7seg\build\CMakeFiles --progress-num=14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80 "Built target temp_7seg"
 .PHONY : CMakeFiles\temp_7seg.dir\all
 
 # Build rule for subdir invocation for target.
 CMakeFiles\temp_7seg.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\AndreClerigo\Desktop\Maker\Pico\Projects\temp_7seg\build\CMakeFiles 78
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\AndreClerigo\Desktop\Maker\Pico\Projects\temp_7seg\build\CMakeFiles 79
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\temp_7seg.dir\all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\AndreClerigo\Desktop\Maker\Pico\Projects\temp_7seg\build\CMakeFiles 0
 .PHONY : CMakeFiles\temp_7seg.dir\rule

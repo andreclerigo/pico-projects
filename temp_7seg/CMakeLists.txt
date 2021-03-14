@@ -13,8 +13,7 @@ project(temp_7seg)
 pico_sdk_init()
 
 # Add executable. Default name is the project name, version 0.1
-
-add_executable(temp_7seg main.cpp)
+add_executable(temp_7seg main.c)
 
 pico_enable_stdio_uart(temp_7seg 0)
 pico_enable_stdio_usb(temp_7seg 1)

@@ -1627,6 +1627,33 @@ D_\Downloads\pico-sdk\src\rp2_common\pico_stdio\stdio.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\temp_7seg.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\temp_7seg.dir\D_\Downloads\pico-sdk\src\rp2_common\pico_stdio\stdio.c.s
 .PHONY : D_\Downloads\pico-sdk\src\rp2_common\pico_stdio\stdio.c.s
 
+D_\Downloads\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.obj: D_\Downloads\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.c.obj
+
+.PHONY : D_\Downloads\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.obj
+
+# target to build an object file
+D_\Downloads\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\temp_7seg.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\temp_7seg.dir\D_\Downloads\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.c.obj
+.PHONY : D_\Downloads\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.c.obj
+
+D_\Downloads\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.i: D_\Downloads\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.c.i
+
+.PHONY : D_\Downloads\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.i
+
+# target to preprocess a source file
+D_\Downloads\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\temp_7seg.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\temp_7seg.dir\D_\Downloads\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.c.i
+.PHONY : D_\Downloads\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.c.i
+
+D_\Downloads\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.s: D_\Downloads\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.c.s
+
+.PHONY : D_\Downloads\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.s
+
+# target to generate assembly for a file
+D_\Downloads\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\temp_7seg.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\temp_7seg.dir\D_\Downloads\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.c.s
+.PHONY : D_\Downloads\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.c.s
+
 D_\Downloads\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb.obj: D_\Downloads\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb.c.obj
 
 .PHONY : D_\Downloads\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb.obj
@@ -1708,32 +1735,32 @@ D_\Downloads\pico-sdk\src\rp2_common\pico_stdlib\stdlib.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\temp_7seg.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\temp_7seg.dir\D_\Downloads\pico-sdk\src\rp2_common\pico_stdlib\stdlib.c.s
 .PHONY : D_\Downloads\pico-sdk\src\rp2_common\pico_stdlib\stdlib.c.s
 
-main.obj: main.cpp.obj
+main.obj: main.c.obj
 
 .PHONY : main.obj
 
 # target to build an object file
-main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\temp_7seg.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\temp_7seg.dir\main.cpp.obj
-.PHONY : main.cpp.obj
+main.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\temp_7seg.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\temp_7seg.dir\main.c.obj
+.PHONY : main.c.obj
 
-main.i: main.cpp.i
+main.i: main.c.i
 
 .PHONY : main.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\temp_7seg.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\temp_7seg.dir\main.cpp.i
-.PHONY : main.cpp.i
+main.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\temp_7seg.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\temp_7seg.dir\main.c.i
+.PHONY : main.c.i
 
-main.s: main.cpp.s
+main.s: main.c.s
 
 .PHONY : main.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\temp_7seg.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\temp_7seg.dir\main.cpp.s
-.PHONY : main.cpp.s
+main.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\temp_7seg.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\temp_7seg.dir\main.c.s
+.PHONY : main.c.s
 
 # Help Target
 help:
@@ -1909,6 +1936,9 @@ help:
 	@echo ... D_/Downloads/pico-sdk/src/rp2_common/pico_stdio/stdio.obj
 	@echo ... D_/Downloads/pico-sdk/src/rp2_common/pico_stdio/stdio.i
 	@echo ... D_/Downloads/pico-sdk/src/rp2_common/pico_stdio/stdio.s
+	@echo ... D_/Downloads/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.obj
+	@echo ... D_/Downloads/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.i
+	@echo ... D_/Downloads/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.s
 	@echo ... D_/Downloads/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.obj
 	@echo ... D_/Downloads/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.i
 	@echo ... D_/Downloads/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.s
