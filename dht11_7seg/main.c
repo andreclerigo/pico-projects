@@ -210,7 +210,7 @@ void core1_code()
             str[1] = temp;
             str[0] = '0'; 
         }
-        sleep_ms(30 * 1000);  // Wait 90 seconds
+        sleep_ms(30 * 1000);  // Wait 30 seconds
     }
 }
 

@@ -1,26 +1,24 @@
-# Generated Cmake Pico project file
 cmake_minimum_required(VERSION 3.12)
 
-set(CMAKE_C_STANDARD 11)
-set(CMAKE_CXX_STANDARD 17)
-
-# Pull in Pico SDK (must be before project)
 include(pico_sdk_import.cmake)
 
-project(ssd_oled_hello)
+project(ss_oled_demo)
 
-# Initialise the Pico SDK
 pico_sdk_init()
 
-# Add executable. Default name is the project name, version 0.1
-include_directories(lib)
-file(GLOB SOURCES "lib/*.c")
-add_executable(ssd_oled_hello main.c ${SOURCES})
+add_executable(ss_oled_demo)
 
-pico_enable_stdio_uart(ssd_oled_hello 0)
-pico_enable_stdio_usb(ssd_oled_hello 1)
+target_sources(ss_oled_demo PRIVATE
+	ss_oled_demo.c
+	BitBang_I2C.c
+        BitBang_I2C.h
+	ss_oled.c
+        ss_oled.h
+	)
 
-# Add the standard library to the build
-target_link_libraries(ssd_oled_hello pico_stdlib hardware_i2c)
+target_link_libraries(ss_oled_demo PRIVATE pico_stdlib hardware_i2c)
+pico_enable_stdio_usb(ss_oled_demo 1)
+pico_enable_stdio_uart(ss_oled_demo 0)
 
-pico_add_extra_outputs(ssd_oled_hello)
+pico_add_extra_outputs(ss_oled_demo)
+
